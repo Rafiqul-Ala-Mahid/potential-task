@@ -37,7 +37,7 @@ const Introduce = () => {
         <div className="flex justify-center gap-6 mt-[40px] mx-auto">
           <FaFacebook className="h-[32.48px] w-[32.48px]" />
           <FaTwitter className="h-[32.48px] w-[32.48px]" />
-          <FaInstagram className="h-[32.48px] w-[32.48px]" />
+          <FaInstagram className="h-[34.48px] w-[34.48px]" />
           <FaLinkedin className="h-[32.48px] w-[32.48px]" />
         </div>
       </div>

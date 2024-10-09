@@ -1,17 +1,15 @@
 import { useState } from "react";
 
 export default function Navbar() {
-  const [isOpen, setIsOpen] = useState(false); // State to manage mobile menu visibility
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="max-w-[1420px] h-[67px] mx-auto px-4">
+    <div className="max-w-[1400px] h-[67px] mx-auto px-4">
       <div className="flex justify-between items-center h-full">
         {/* Logo Section */}
         <div className="flex items-center">
-          <p className="bg-[#FD6F00] text-white text-[32px] rounded-full w-[67px] h-[67px] flex items-center justify-center">
-            mu
-          </p>
-          <a href="/" className="ml-4 text-4xl text-gray-800">
+          <img src="/src/assets/mu.png" className="h-[67px] w-[67px] rounded-full" alt="" />
+          <a href="/" className="ml-4 text-[48px] text-gray-800">
             <span className="font-bold">M</span>umair
           </a>
         </div>

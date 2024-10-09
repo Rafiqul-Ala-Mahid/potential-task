@@ -1,6 +1,7 @@
 import './App.css'
 import About from './components/About'
 import ContactMe from './components/ContactMe'
+import Footer from './components/Footer'
 import Introduce from './components/Introduce'
 import MyProjects from './components/MyProjects'
 import Navbar from './components/Navbar'
@@ -19,6 +20,7 @@ function App() {
       <MyProjects></MyProjects>
       <Testimonials></Testimonials>
       <ContactMe></ContactMe>
+      <Footer></Footer>
     </>
   )
 }
