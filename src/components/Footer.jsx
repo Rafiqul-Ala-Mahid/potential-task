@@ -4,7 +4,7 @@ import { FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="mb-[-30px] pt-[25px] lg:pt-[75px] bg-[#F8F8F8]">
-      <div className="flex gap-4 items-center justify-center">
+      <div className="flex gap-6 items-center justify-center">
         <img
           src="/src/assets/mu.png"
           alt=""
