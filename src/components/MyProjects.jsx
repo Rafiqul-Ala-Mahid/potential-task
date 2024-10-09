@@ -1,4 +1,10 @@
 import { useState } from "react";
+import Img1 from "../assets/images/image1.png"
+import Img2 from "../assets/images/image2.png"
+import Img3 from "../assets/images/image3.png"
+import Img4 from "../assets/images/image4.png"
+import Img5 from "../assets/images/image5.png"
+import Img6 from "../assets/images/image6.png"
 
 const MyProjects = () => {
   const [activeButton, setActiveButton] = useState("Web Design");
@@ -15,20 +21,20 @@ const MyProjects = () => {
       {
         title: "Web Design",
         description: "AirCalling Landing Page Design ",
-        bgImage: "/src/assets/image5.png",
-        overlayImage: "/src/assets/image2.png",
+        bgImage: `${Img5}`,
+        overlayImage: `${Img2}`,
       },
       {
         title: "Web Design",
         description: "Business Landing Page Design ",
-        bgImage: "/src/assets/image4.png",
-        overlayImage: "/src/assets/image1.png",
+        bgImage: `${Img4}`,
+        overlayImage: `${Img1}`,
       },
       {
         title: "Web Design",
         description: "Ecom Web Page Design",
-        bgImage: "/src/assets/image6.png",
-        overlayImage: "/src/assets/image3.png",
+        bgImage: `${Img6}`,
+        overlayImage: `${Img3}`,
       },
     ];
 

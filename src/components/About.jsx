@@ -1,5 +1,6 @@
 import { useState } from "react";
 import SkillBar from "./SkillBar";
+import Umair2 from "../assets/images/Umaiar2.png"
 
 const About = () => {
     const [uxScore, setUxScore] = useState(80); // UX initial score
@@ -16,7 +17,7 @@ const About = () => {
               </div>
             </div>
             <img
-              src="/src/assets/Umaiar2.png"
+              src={Umair2}
               alt="Your description"
               className="absolute w-[400px] mb-[60px] h-[450px] rounded-full object-cover z-10"
             />

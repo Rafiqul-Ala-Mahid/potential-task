@@ -1,4 +1,5 @@
 import { useState } from "react";
+import MU from "../assets/images/mu.png"
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,7 +9,7 @@ export default function Navbar() {
       <div className="flex justify-between items-center h-full">
         {/* Logo Section */}
         <div className="flex items-center">
-          <img src="/src/assets/mu.png" className="h-[67px] w-[67px] rounded-full" alt="" />
+          <img src={MU} className="h-[67px] w-[67px] rounded-full" alt="" />
           <a href="/" className="ml-4 text-[48px] text-gray-800">
             <span className="font-bold">M</span>umair
           </a>

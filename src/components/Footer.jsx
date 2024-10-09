@@ -1,12 +1,13 @@
 import { FaFacebook } from "react-icons/fa6";
 import { FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import MU from "../assets/images/mu.png"
 
 const Footer = () => {
   return (
     <div className="mb-[-30px] pt-[25px] lg:pt-[75px] bg-[#F8F8F8]">
       <div className="flex gap-6 items-center justify-center">
         <img
-          src="/src/assets/mu.png"
+          src={MU}
           alt=""
           className="h-[67px] w-[67px] rounded-full"
         />

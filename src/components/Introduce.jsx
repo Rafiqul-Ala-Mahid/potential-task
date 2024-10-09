@@ -1,5 +1,6 @@
 import { FaFacebook } from "react-icons/fa6";
 import { FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import Umair1 from "../assets/images/Umaiar1.png"
 
 const Introduce = () => {
   return (
@@ -27,7 +28,7 @@ const Introduce = () => {
             </div>
           </div>
           <img
-            src="/src/assets/Umaiar1.png"
+            src={Umair1}
             alt="Your description"
             className="absolute w-[400px] mb-[60px] h-[450px] rounded-full object-cover z-10"
           />

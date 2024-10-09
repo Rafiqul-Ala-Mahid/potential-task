@@ -1,3 +1,8 @@
+import UI from "../assets/icons/Vector.svg"
+import Web from "../assets/icons/Layer_1.svg"
+import App from "../assets/icons/Group 18.svg"
+import Graphic from "../assets/icons/Vector-3.svg"
+
 
 const Services = () => {
      const skills = [
@@ -5,25 +10,25 @@ const Services = () => {
          title: "UI/UX",
          description:
            "Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum",
-         imgSrc: "/src/assets/icons/Vector.svg", // Replace with your image path
+         imgSrc:`${UI}`,
        },
        {
          title: "Web Design",
          description:
            "Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum",
-         imgSrc: "/src/assets/icons/Layer_1.svg", // Replace with your image path
+         imgSrc:`${Web}`
        },
        {
          title: "App Design",
          description:
            "Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum",
-         imgSrc: "/src/assets/icons/Group 18.svg", // Replace with your image path
+         imgSrc: `${App}`
        },
        {
          title: "Graphic Design",
          description:
            "Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum",
-         imgSrc: "/src/assets/icons/Vector-3.svg", // Replace with your image path
+         imgSrc: `${Graphic}`
        },
      ];
 
