@@ -40,9 +40,9 @@ const MyProjects = () => {
 
 
   return (
-    <div className="lg:h-[1000px]">
-      <h1 className="text-[65px] text-center font-bold">My Projects</h1>
-      <p className="text-[21px] text-center lg:w-[50%] mx-auto">
+    <div className="lg:w-[1423px] flex flex-col justify-between mt-[140px] lg:mx-[249px] lg:h-[1020px]">
+      <h1 className="lg:text-[65px] text-3xl text-center font-bold">My Projects</h1>
+      <p className="lg:text-[21px] text-md text-center lg:w-[50%] mx-auto">
         Lorem ipsum dolor sit amet consectetur. Mollis erat duis aliquam mauris
         est risus lectus. Phasellus consequat urna tellus
       </p>
@@ -62,30 +62,30 @@ const MyProjects = () => {
         ))}
       </div>
 
-      <div className="flex flex-col lg:flex-row flex-wrap justify-center space-y-6 lg:space-y-0 lg:space-x-2">
+      <div className="flex flex-col lg:flex-row justify-center space-y-6 lg:space-y-0 lg:space-x-2">
         {divData.map((item, index) => (
           <div key={index} className=" p-4 mx-auto rounded-lg">
             {/* Background Image */}
             <div
-              className="relative bg-[#FFEBDB] w-[360px] h-[420px]"
+              className="relative bg-[#FFEBDB] w-[445px] h-[489px]"
             >
               <img
                 src={item.bgImage}
                 alt={`${item.title} background`}
-                className="absolute top-[0px] left-[115px] w-[220px] h-[420px] object-cover"
+                className="absolute top-[0px] left-[150px] w-[274px] h-[489px] object-cover"
               />
               {/* Overlay Image */}
               <img
                 src={item.overlayImage}
                 alt={`${item.title} overlay`}
-                className="absolute top-[90px] left-[30px] w-[220px] h-[330px] "
+                className="absolute top-[85px] left-[50px] w-[274px] h-[405px] "
               />
             </div>
             {/* Title and Description */}
-            <h2 className="mt-4 text-left text-[19px] text-[#FD6F00]">
+            <h2 className="mt-4 text-left text-md lg:text-[19px] text-[#FD6F00]">
               {item.title}
             </h2>
-            <p className="text-[24px] text-left font-bold">
+            <p className="lg:text-[24px] text-lg text-left font-bold">
               {item.description}
             </p>
           </div>

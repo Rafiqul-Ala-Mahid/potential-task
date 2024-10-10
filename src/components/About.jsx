@@ -8,10 +8,10 @@ const About = () => {
     const [appDesignScore, setAppDesignScore] = useState(65); // App Design initial score
     const [graphicDesignScore, setGraphicDesignScore] = useState(90);
     return (
-      <div className="max-w-[1400px] mx-auto lg:h-[586px] items-center flex flex-col lg:flex-row mt-[50px] gap-[20px]">
+      <div className="lg:w-[1400px] lg:mx-[260px] lg:h-[675px] items-center flex flex-col lg:flex-row mt-[70px] gap-[20px]">
         <div className="lg:w-1/2">
           <div className="flex items-center justify-center lg:mt-8 relative">
-            <div className="w-[400px] h-[400px] relative flex items-center justify-center">
+            <div className="w-[545px] h-[545px] relative flex items-center justify-center">
               <div className="absolute inset-0 bg-gradient-to-b from-gray-300 to-[#FF8233] rounded-full p-[5px]">
                 <div className="w-full h-full bg-white rounded-full"></div>
               </div>
@@ -19,15 +19,15 @@ const About = () => {
             <img
               src={Umair2}
               alt="Your description"
-              className="absolute w-[400px] mb-[60px] h-[450px] rounded-full object-cover z-10"
+              className="absolute w-[545px] mb-[120px] h-[660px] rounded-full object-cover z-10"
             />
 
-            <div className="absolute mb-[350px] w-[375px] h-[85px] bg-[#FD6F0099] text-white flex items-center justify-center z-20"></div>
+            <div className="absolute mb-[480px] w-[374px] h-[83px] bg-[#FD6F0099] text-white flex items-center justify-center z-20"></div>
           </div>
         </div>
         <div className="lg:w-1/2 mx-[20px] text-left">
-          <h1 className="text-[65px] font-bold">About Me</h1>
-          <p className="text-[21px]">
+          <h1 className="lg:text-[65px] text-3xl lg:text-left  text-center font-bold">About Me</h1>
+          <p className="lg:text-[21px]">
             Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa
             nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis
             tempus pharetra

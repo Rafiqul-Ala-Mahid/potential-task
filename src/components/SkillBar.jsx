@@ -1,13 +1,12 @@
 import  "./skillBar.css"
 
-
 // eslint-disable-next-line react/prop-types
 const SkillBar = ({ skillName, score, setScore }) => {
   return (
     <div className="mb-6 relative">
       {/* Skill Name */}
       <div className="flex justify-between items-center">
-        <span className="text-[24px] font-bold">{skillName}</span>
+        <span className="lg:text-[24px] text-xl font-bold">{skillName}</span>
       </div>
 
       {/* Progress Bar */}

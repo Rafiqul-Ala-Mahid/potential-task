@@ -12,7 +12,7 @@ import Testimonials from './components/Testimonials'
 function App() {
 
   return (
-    <>
+    <div className='w-[1920px] border-4'>
       <Navbar></Navbar>
       <Introduce></Introduce>
       <About></About>
@@ -21,7 +21,7 @@ function App() {
       <Testimonials></Testimonials>
       <ContactMe></ContactMe>
       <Footer></Footer>
-    </>
+    </div>
   )
 }
 

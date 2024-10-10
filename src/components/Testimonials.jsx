@@ -53,7 +53,7 @@ const Testimonials = () => {
     beforeChange: (current, next) => setActiveSlide(next),
     customPaging: (i) => (
       <div
-        className={`h-2 w-[20px] rounded-lg ${
+        className={`h-2 mt-[30px] w-[20px] rounded-lg ${
           i === activeSlide ? "bg-[#FD6F00]" : "bg-gray-300"
         }`}
       />
@@ -62,32 +62,34 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="lg:h-[850px] mx-auto">
-      <h1 className="text-[65px] font-bold text-center">Testimonials</h1>
-      <p className="text-[21px] lg:w-[50%] mx-auto text-center mb-8">
+    <div className="lg:h-[733px] flex flex-col justify-between mt-[139px] lg:w-[1420px] lg:mx-[250px]">
+      <h1 className="lg:text-[65px] mb-[30px] font-bold text-3xl text-center">
+        Testimonials
+      </h1>
+      <p className="lg:text-[21px] mb-[70px] text-md lg:w-[50%] mx-auto text-center">
         Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh
         lectus netus in. Aliquet donec morbi convallis pretium.
       </p>
-      <div className=" mx-auto py-12 px-2 sm:px-2 lg:px-2">
+      <div className=" py-12 px-2 sm:px-2 lg:px-2">
         <Slider {...settings}>
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="p-6">
-              <div className="flex lg:w-[900px] w-full mx-auto items-center bg-white shadow-lg rounded-lg p-8">
-                <div className="w-[40%] mx-auto">
+            <div key={index} className="">
+              <div className="flex flex-col lg:flex-row  lg:w-[900px] border-2 lg:h-[344px] w-full mx-auto items-center bg-[#F8F8F8] shadow-lg rounded-lg p-8">
+                <div className="lg:w-[40%] mx-auto">
                   <img
                     src={testimonial.image}
                     alt={testimonial.name}
-                    className="lg:w-[200px] lg:h-[200px] w-[120px] h-[120px] mr-[30px] rounded-full object-cover mb-4"
+                    className="lg:w-[200px] lg:h-[200px] w-[150px] h-[150px] rounded-full object-cover "
                   />
                 </div>
-                <div className="lg:w-[70%] ms-[10px] w-[60%]">
+                <div className="lg:w-[716px] lg:h-[216px] ms-[10px] w-[90%]">
                   <div className="flex flex-col">
                     <img
                       src={Quote}
                       alt="quote"
                       className="w-6 h-6 ms-[-20px] mb-[0px] inline-block"
                     />
-                    <p className="italic text-left text-gray-600">
+                    <p className="italic text-justify lg:text-[21px] text-gray-600">
                       {testimonial.quote}
                     </p>
                     <img
@@ -96,10 +98,10 @@ const Testimonials = () => {
                       className="w-6 h-6 ml-[90%] inline-block transform rotate-180"
                     />
                   </div>
-                  <h3 className="text-xl text-left font-semibold text-gray-800">
+                  <h3 className="text-xl lg:text-[24px] text-left font-semibold text-gray-800">
                     {testimonial.name}
                   </h3>
-                  <p className="text-sm text-left text-gray-500">
+                  <p className="text-sm lg:text-[19px] text-left text-gray-500">
                     {testimonial.designation}
                   </p>
                 </div>
