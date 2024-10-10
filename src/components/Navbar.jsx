@@ -70,9 +70,8 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu Links */}
       {isOpen && (
-        <div className="md:hidden bg-slate-200 flex flex-col items-center space-y-4 mt-4">
+        <div className="md:hidden fixed top-24 left-0 w-full h-[400px] bg-slate-200 flex flex-col items-center space-y-4 pt-8 z-50 transition-all duration-500 ease-in-out">
           <a
             href="/"
             className="text-gray-600 hover:text-[#FD6F00] text-[21px] font-medium"

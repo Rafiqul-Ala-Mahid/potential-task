@@ -4,7 +4,7 @@ import Umair1 from "../assets/images/Umaiar1.png"
 
 const Introduce = () => {
   return (
-    <div className="max-w-[1400px] mx-auto lg:h-[586px] items-center flex flex-col-reverse lg:flex-row mt-[128px] gap-[20px]">
+    <div className="max-w-[1400px] mx-auto lg:h-[586px] items-center flex flex-col-reverse lg:flex-row mt-[150px] lg:mt-[128px] gap-[20px]">
       <div className="lg:w-1/2 mx-[20px] text-left">
         <p className="text-[24px]">Hi I am</p>
         <h1 className="text-[#FD6F00] text-[32px]">Muhammad Umair</h1>
