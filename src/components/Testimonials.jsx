@@ -73,27 +73,29 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <div key={index} className="p-6">
               <div className="flex lg:w-[900px] w-full mx-auto items-center bg-white shadow-lg rounded-lg p-8">
-                <div className="w-[40%]">
+                <div className="w-[40%] mx-auto">
                   <img
                     src={testimonial.image}
                     alt={testimonial.name}
-                    className="lg:w-[200px] lg:h-[200px] w-[130px] h-[130px] rounded-full object-cover mb-4"
+                    className="lg:w-[200px] lg:h-[200px] w-[120px] h-[120px] mr-[30px] rounded-full object-cover mb-4"
                   />
                 </div>
-                <div className="w-[60%]">
-                  <p className="ms-[20px] italic text-left text-gray-600 mb-6">
+                <div className="lg:w-[70%] ms-[10px] w-[60%]">
+                  <div className="flex flex-col">
                     <img
                       src={Quote}
                       alt="quote"
-                      className="w-6 h-6 ms-[-30px] mb-[-25px] inline-block"
+                      className="w-6 h-6 ms-[-20px] mb-[0px] inline-block"
                     />
-                    {testimonial.quote}
+                    <p className="italic text-left text-gray-600">
+                      {testimonial.quote}
+                    </p>
                     <img
                       src={Quote}
                       alt="quote"
-                      className="w-6 h-6 mt-[-25px] lg:ml-[48%] ml-[90%] inline-block transform rotate-180"
+                      className="w-6 h-6 ml-[90%] inline-block transform rotate-180"
                     />
-                  </p>
+                  </div>
                   <h3 className="text-xl text-left font-semibold text-gray-800">
                     {testimonial.name}
                   </h3>

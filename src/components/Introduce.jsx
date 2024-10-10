@@ -8,9 +8,8 @@ const Introduce = () => {
       <div className="lg:w-1/2 mx-[20px] text-left">
         <p className="text-[24px]">Hi I am</p>
         <h1 className="text-[#FD6F00] text-[32px]">Muhammad Umair</h1>
-        <h1 className="lg:text-[100px] text-[50px] font-extrabold">
-          UI & UX <br /> <span className="">Designer</span>
-        </h1>
+        <h1 className="lg:text-[100px] text-[50px] font-extrabold">UI & UX</h1>
+        <h1 className="lg:text-[100px] text-end text-[50px] font-extrabold">Designer</h1>
         <p className=" text-[21px]">
           Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh
           lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus
